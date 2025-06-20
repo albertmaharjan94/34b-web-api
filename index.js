@@ -238,10 +238,5 @@ app.delete("/blogs/:blogId",
         )
     }
 )
-const PORT = process.env.PORT
-app.listen(
-    PORT,
-    () => {
-        console.log("Server running")
-    }
-)
+
+module.exports = app
